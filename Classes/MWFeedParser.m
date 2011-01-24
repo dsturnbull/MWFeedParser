@@ -657,6 +657,8 @@
 				
 				break;
 			}
+			case FeedTypeUnknown: break;
+
 		}
 	}
 	
@@ -865,6 +867,7 @@
 				}
 				break;
 			}
+			case FeedTypeUnknown: break;
 		}
 	}
 	if (encURL) {
